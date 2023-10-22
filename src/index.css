@@ -1,0 +1,45 @@
+:root {
+  --c-brand: #3eaf7c;
+  --c-border: #eaecef;
+}
+
+.demo-container {
+  padding: 20px;
+}
+
+.demo-container h3 {
+  padding-top: 0;
+  margin: 0 0 24px;
+}
+
+.demo-container button {
+  padding: 4px 15px;
+  background-color: #ffffff;
+  border: 1px solid #d5d6d9;
+  border-radius: 4px;
+  color: #3f3f3f;
+}
+
+.demo-container button + button {
+  margin-left: 24px;
+}
+
+.demo-container button.primary {
+  background-color: #326bfb;
+  border-color: transparent;
+  color: #ffffff;
+}
+
+.demo-container span {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 16px;
+}
+
+.demo-container input {
+  margin-left: 16px;
+  max-width: 200px;
+  border: #d5d6d9 1px solid;
+  border-radius: 4px;
+  padding: 0 4px;
+}
